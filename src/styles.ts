@@ -40,8 +40,8 @@ export const ColumnTitle = styled.div`
 export const CardContainer = styled.div`
   background-color: #fff;
   cursor: pointer;
-  margin-bottom: .5rem;
-  padding: .5rem 1rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 1rem;
   max-width: 300px;
   border-radius: 3px;
   box-shadow: #091e4240 0 1px 0 0;
@@ -55,13 +55,14 @@ export const AddItemButton = styled.button<AddItemButtonProps>`
   background-color: #ffffff3d;
   border-radius: 3px;
   border: none;
-  color: ${props => (props.dark ? "#000" : "#fff")};
+  color: ${(props) => (props.dark ? '#000' : '#fff')};
   cursor: pointer;
   max-width: 300px;
   padding: 10px 12px;
   text-align: left;
   transition: backgroung 85ms ease-in;
   width: 100%;
+
   &:hover {
     background-color: #ffffff52;
   }

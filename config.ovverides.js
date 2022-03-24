@@ -1,4 +1,4 @@
-const { addWebpackAlias, override} = require('customize-cra');
+const { addWebpackAlias, override } = require('customize-cra');
 const path = require('path');
 
 module.exports = override(
@@ -6,7 +6,7 @@ module.exports = override(
     'styled-components': path.resolve(
       __dirname,
       'node_modules',
-      'styled-components',
+      'styled-components'
     ),
-  }),
+  })
 );
